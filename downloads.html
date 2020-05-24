@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TiVA / Downloads</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TiVA Web Page">
+    <meta name="author" content="The TiVA Team">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font-Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/verchor-template.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./">TiVA</a>
+	  </div>
+	  <div class="navbar-collapse collapse">
+	  <ul class="nav navbar-nav">
+	    <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+	    <!--<li><a href="tour.html"><i class="fa fa-video-camera"></i> Tour</a></li>-->
+<!-- 	    <li><a href="documentation.html"><i class="fa fa-archive"></i> Documentation</a></li> -->
+	    <li class="active"><a href="downloads.html"><i class="fa fa-arrow-circle-o-down"></i> Downloads</a></li>
+	    <li><a href="about.html"><i class="fa fa-group"></i> About</a></li>
+	  </ul>
+	</div>
+	</div>
+	</div>
+	<div class="container">
+	  <h2>Modelling and Model Transformation</h2>
+
+	  <p>In order to model and enable the verification of your models,
+      <b>you should install both</b> the Eclipse plugin for TiVA DSL and the TiVA Core tool.<br/>
+      
+      <div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6">
+          <a class="btn btn-md btn-primary" href="https://github.com/Hariati/Tiva-DSL" role="button">
+            Eclipse TiVA DSL plugin
+            <i class="fa fa-external-link"></i>
+          </a>
+          </div>
+          <div class="col-lg-9 col-md-8 col-sm-12">
+          to edit models in the TiVA DSL and verify the syntax<br>
+          <em>-- available as an Eclipse plugin </em>
+          </div>
+        </div>
+        <div class="row"><br/></div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6">
+          <a class="btn btn-md btn-primary" href="https://github.com/Hariati/TiVA" role="button">
+            TiVA Core tool
+            <i class="fa fa-external-link"></i>
+          </a>
+          </div>
+          <div class="col-lg-9 col-md-8 col-sm-12">
+          to transform models into networks of timed automata in the XTA format<br/>
+          <em>-- available both as an executable file jar and as java source code </em>
+          </div>
+        </div>
+      </div>
+    </p>
+
+    <h2>Model Verification</h2>
+
+	  <p>Timed verifications of the models (once transformed into networks of timed automata) are available in TiVA Core tool, since the UPPAAL Engine is encapsulated with TiVA Core tool. Nevertheless, to have counter examples, or to make graphical simulations, one can use UPPAAL Tool
+	     
+        <div>
+          <!-- <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6">
+            <a class="btn btn-md btn-primary" href="https://lip6.github.io/ITSTools-web/" role="button">
+              ITS Tools
+              <i class="fa fa-external-link"></i>
+            </a>
+            </div>
+            <div class="col-lg-9 col-md-8 col-sm-12">
+            an easy to use and powerful model-checker<br/>
+            <em>-- available as an Eclipse update site (easy install)</em>
+            </div>
+          </div> -->
+          <div class="row"><br/></div>
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6">
+            <a class="btn btn-md btn-primary" href="http://uppaal.org" role="button">
+              UPPAAL tool
+              <i class="fa fa-external-link"></i>
+            </a>
+            </div>
+            <div class="col-lg-9 col-md-8 col-sm-12">
+            an integrated tool environment with verification features for real-time systems<br/>
+            <em>-- available as binaries (easy install)</em>
+            </div>
+          </div>
+        </div>
+      </p>
+    
+    <hr>
+
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2020 The TiVA Team</a></p>
+      </footer>
+    </div> <!-- /container -->
+
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/a514b38f2b.js"></script>
+  </body>
+</html>
